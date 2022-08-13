@@ -19,7 +19,7 @@ a{
 
 .signup-link{
     font-size: 14px;
-    color: #FF7B01;
+    color: #3876D0;
 
 }
 .logo{
@@ -43,7 +43,7 @@ a{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #FF7B01;
+    background-color: #3876D0;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -66,7 +66,7 @@ a{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #FF7B01;
+    background-color: #3876D0;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -166,14 +166,14 @@ input[type="password"], input[type="email"]{
 
 input[type="submit"]{
     margin-top: 10px;
-    background-color: #FF7B01;
+    background-color: #9BBBE7;
     border: none;
     border-radius: 8px;
     color: white;
     height: 54px;
 }
 input[type="submit"]:hover{
-    background-color: #e98120e2;
+    background-color: #3876D0;
     cursor: pointer;
 }
 
@@ -195,9 +195,12 @@ label{
     margin: auto;
     margin-top: 20px;
     font-weight: 600;
-    color:#FF7B01;
+    color: #9BBBE7;
 }
-
+.cant-login a:hover{
+    color: #3876D0;
+    cursor: pointer;
+}
 .captcha{
     width: 45%;
     margin: auto;
@@ -231,6 +234,9 @@ label{
         margin: 0 auto; 
         left:0; 
         right:0; 
+    }
+    form:before{
+        display: none;
     }
     
     span { position: absolute; 
